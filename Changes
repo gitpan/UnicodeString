@@ -1,0 +1,46 @@
+1999-05-01   Gisle Aas <gisle@aas.no>
+
+   Release 2.02
+
+   Avoid "Ambiguous call resolved as CORE::..." warnings from
+   newer perls.
+
+
+
+1998-01-20   Gisle Aas <aas@sn.no>
+
+   Release 2.01
+
+   Improved the documentation of Unicode::String
+
+   Only warn when $^W is TRUE
+
+
+
+1998-01-19   Gisle Aas <aas@sn.no>
+
+   Release Unicode-String-2.00
+
+   Renamed package to Unicode-String (moved String modules up one
+   level in the distribution)
+
+   Handle assignment of utf16 strings with uneven byte length
+
+   The $u->length now always returns an integer value as it should
+
+   The $u->utf7 encoder bailed out on U+XX0A characters
+
+
+
+1997-07-10   Gisle Aas <aas@sn.no>
+
+   Release Unicode-19970710
+
+   Now most basic conversion routines and string manipulation works.
+   Documentation is starting to appear.
+
+
+
+1997-02-11   Gisle Aas <aas@sn.no>
+
+   First version of this module posted to perl5-porters.
